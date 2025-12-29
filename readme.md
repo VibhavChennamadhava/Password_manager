@@ -19,7 +19,7 @@ The application uses modern cryptographic techniques to ensure **confidentiality
 - 🧠 **Strong Key Derivation (PBKDF2)**
 - 👁️ **Show / Hide Password Toggle**
 - 📋 **One-Click Copy to Clipboard**
-- ⏱️ **Automatic Clipboard Clear (15 seconds)**
+- ⏱️ **Automatic Clipboard Clear**
 - 🔍 **View Password on Demand**
 - 🖥️ **User-Friendly Desktop UI (Tkinter)**
 - ❌ No plaintext passwords stored on disk
