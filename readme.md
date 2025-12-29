@@ -43,6 +43,27 @@ pip install cryptography
 
 This design follows the same principles used by popular password managers like **KeePass**, **Bitwarden**, and **1Password**.
 
+## 🖼️ Application Screenshots
+
+### 🔐 Login Screen
+Secure master password authentication to unlock the encrypted vault.
+
+![Login Screen](screenshots/ui_main.png)
+
+---
+
+### ➕ Add New Password
+Add website credentials with a secure password input and show/hide toggle.
+
+![Add Password](screenshots/adding_pass.png)
+---
+
+### 🔑 Vault View
+View saved accounts, securely retrieve passwords, or copy them with auto-clear clipboard protection.
+
+![Vault Screen](screenshots/inside_vault.png)
+
+
 ---
 
 ## 🧰 Technology Stack
