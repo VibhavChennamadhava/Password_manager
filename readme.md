@@ -1,0 +1,64 @@
+# 🔐 PasswordManager
+
+A secure, lightweight **desktop password manager** built using **Python** and **Tkinter**, designed to safely store, retrieve, and manage login credentials using strong encryption.
+
+---
+
+## 📌 Overview
+
+**PasswordManager** helps users securely store sensitive login credentials such as usernames and passwords for multiple online accounts. Instead of remembering numerous complex passwords, users can rely on a single **master password** to unlock an **encrypted vault**.
+
+The application uses modern cryptographic techniques to ensure **confidentiality, integrity, and security** of stored data, while providing a clean and intuitive desktop user interface.
+
+---
+
+## ✨ Key Features
+
+- 🔐 **Master Password Authentication**
+- 🗄️ **Encrypted Password Vault (AES-256-GCM)**
+- 🧠 **Strong Key Derivation (PBKDF2)**
+- 👁️ **Show / Hide Password Toggle**
+- 📋 **One-Click Copy to Clipboard**
+- ⏱️ **Automatic Clipboard Clear (15 seconds)**
+- 🔍 **View Password on Demand**
+- 🖥️ **User-Friendly Desktop UI (Tkinter)**
+- ❌ No plaintext passwords stored on disk
+
+---
+
+## 🛡️ Security Design
+
+- Passwords are **never stored in plaintext**
+- Vault data is encrypted using **AES-256-GCM**
+- Master password is **never saved**
+- Encryption keys are derived using **PBKDF2**
+- Vault is decrypted **only in memory**
+- Clipboard data auto-clears after a fixed timeout
+
+This design follows the same principles used by popular password managers like **KeePass**, **Bitwarden**, and **1Password**.
+
+---
+
+## 🧰 Technology Stack
+
+| Component | Technology |
+|--------|-----------|
+| Language | Python |
+| UI | Tkinter |
+| Cryptography | cryptography |
+| Encryption | AES-256-GCM |
+| Key Derivation | PBKDF2 |
+| Storage | Encrypted local file |
+
+---
+
+## 📁 Project Structure
+
+```text
+PasswordManager/
+│
+├── password_manager.py   # Encryption and vault logic
+├── ui.py                 # Tkinter user interface
+├── vault.enc             # Encrypted password vault (auto-generated)
+├── salt.bin              # Cryptographic salt (auto-generated)
+└── README.md
