@@ -25,7 +25,13 @@ The application uses modern cryptographic techniques to ensure **confidentiality
 - ❌ No plaintext passwords stored on disk
 
 ---
+### 🔐 Installation
 
+Libraries used
+cryptography
+```text
+pip install cryptography
+```
 ## 🛡️ Security Design
 
 - Passwords are **never stored in plaintext**
