@@ -32,6 +32,10 @@ cryptography
 ```text
 pip install cryptography
 ```
+Run ui
+```text
+python ui.py
+```
 ## 🛡️ Security Design
 
 - Passwords are **never stored in plaintext**
